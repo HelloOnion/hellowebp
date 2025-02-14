@@ -7,8 +7,6 @@ a Simple chrome extension to convert images to WEBP format using the browser-bas
 - [Description](#description)
 - [Installation](#installation)
 - [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
 
 # Description
 
