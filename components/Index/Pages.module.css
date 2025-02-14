@@ -1,0 +1,53 @@
+.container {
+  width: 400px;
+  background: var(--bg-color);
+  padding: 5px;
+  color: var(--text-color);
+  overflow-y: auto;
+}
+
+.main {
+  width: 390px;
+  min-height: 475px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+}
+
+.title {
+  font-size: x-large;
+  margin-bottom: 20px;
+}
+
+.description {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: var(--secondary-text-color);
+  font-size: 11px;
+}
+
+.code {
+  background: var(--bg-color);
+  color: var(--text-color);
+  border-radius: 5px;
+  padding: 20px;
+  font: small Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace;
+}
+
+.convertButton {
+  background: #4CAF50;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 20px 0;
+  font-size: 16px;
+}
+
+.convertButton:disabled {
+  background: #cccccc;
+  cursor: not-allowed;
+}

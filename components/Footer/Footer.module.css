@@ -1,0 +1,22 @@
+.footer {
+  width: 400px;
+  display: flex;
+  flex: 1;
+  padding: 10px;
+  justify-content: center;
+  gap: 10px;
+
+}
+
+.footer a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: medium;
+  color: #757bc3;
+}
+
+.logo {
+  height: 1em;
+  margin-left: 0.5rem;
+}

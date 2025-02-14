@@ -1,0 +1,110 @@
+.fileLists {
+  width: 100%;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 15px;
+}
+
+.fileListSection {
+  margin: 10px 0;
+}
+
+.fileListSection h4 {
+  margin: 0 0 10px 0;
+  font-size: 14px;
+  color: var(--text-color);
+}
+
+.fileList {
+  max-height: 270px;
+  overflow-y: auto;
+}
+
+.fileItem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px;
+  margin: 8px 0;
+  background: rgba(0, 0, 0, 0.02);
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.fileInfo {
+  flex: 1;
+  margin-right: 10px;
+  overflow: hidden;
+}
+
+.fileName {
+  display: block;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin-bottom: 8px;
+  font-size: 13px;
+}
+
+.progressWrapper {
+  position: relative;
+  height: 4px;
+  background: rgba(0, 0, 0, 0.05);
+  border-radius: 2px;
+  overflow: hidden;
+}
+
+.progressBar {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  background: #4CAF50;
+  transition: width 0.3s ease;
+}
+
+.progressText {
+  position: absolute;
+  right: 0;
+  top: -18px;
+  font-size: 11px;
+  color: #666;
+}
+
+.downloadButton {
+  background: none;
+  border: none;
+  padding: 3px;
+  cursor: pointer;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 24px;
+  border-radius: 4px;
+}
+
+.downloadButton:hover {
+  background: rgba(0, 0, 0, 0.05);
+}
+
+.downloadAllWrapper {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 10px;
+}
+
+.downloadAllButton {
+  background: #4CAF50;
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 12px;
+}
+
+.downloadAllButton:hover {
+  background: #45a049;
+} 
